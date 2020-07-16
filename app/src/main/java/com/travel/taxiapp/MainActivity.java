@@ -10,13 +10,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button Btn1;
-
+    Button Btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         Btn1=findViewById(R.id.button);
+        Btn2=findViewById(R.id.button);
+
+
+
 
     }
 }
